@@ -20,31 +20,27 @@ output:
     *       *
 '''
 
-# output - 1
-n = 5
-for i in range(1,5):
-    for j in range(1,5):
-        if (
-            i == 0 or i == n-1 or j == 0 or j == n-1 or
-            (i == 1 and j == 1) or
-            (i == 1 and j == n-2) or
-            (i == 2 and j == 2) or
-            (i == n-2 and j == 1) or
-            (i == n-2 and j == n-2)
-        ):
+# Pattern 1
+for i in range(6):
+    if i == 0 or i == 5:
+        print("* " * 5)
+    else:
+        print("    *")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# hello
 print()
+
+# Pattern 2
+for i in range(5):
+    if i == 2:
+        print("* " * 5)
+    else:
+        print("*       *")
+
+print()
+
+# Pattern 3
+for i in range(5):
+    if i == 0 or i == 2:
+        print("* " * 5)
+    else:
+        print("*       *")
