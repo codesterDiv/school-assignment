@@ -19,11 +19,21 @@ output:
 '''
 
 
+
+print()
+print()
+
+
 # 1)
 for ch in ['Z', 'Y', 'X']:
     print((ch + ' ') * 3)
 
 print()
+
+
+print()
+print()
+
 
 # 2)
 num = 10
@@ -35,6 +45,11 @@ for _ in range(3):
 
 print()
 
+
+print()
+print()
+
+
 # 3)
 for i in range(10, 100, 30):
     for j in range(i, i + 30, 10):
@@ -42,6 +57,11 @@ for i in range(10, 100, 30):
     print()
 
 print()
+
+
+print()
+print()
+
 
 # 4)
 for i in range(1, 5):

@@ -19,7 +19,6 @@ output:
     *       *
     *       *
 '''
-
 # Pattern 1
 for i in range(6):
     if i == 0 or i == 5:
@@ -29,6 +28,11 @@ for i in range(6):
 
 print()
 
+
+print()
+print()
+
+
 # Pattern 2
 for i in range(5):
     if i == 2:
@@ -37,6 +41,11 @@ for i in range(5):
         print("*       *")
 
 print()
+
+
+print()
+print()
+
 
 # Pattern 3
 for i in range(5):

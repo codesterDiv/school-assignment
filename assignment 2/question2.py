@@ -17,6 +17,10 @@ output :
 '''
 
 
+print()
+print()
+
+
 # output - 1
 for r in range(1,4):
     for c in range(1,4):
@@ -24,11 +28,19 @@ for r in range(1,4):
     print()
 
 
+print()
+print()
+
+
 # output - 2
 for r in range(1,4):
     for c in range(1,4):
         print(c, end=" ")
     print()
+
+
+print()
+print()
 
 
 # output - 3

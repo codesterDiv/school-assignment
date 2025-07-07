@@ -13,12 +13,15 @@ output:
     D E F
     G H I
 '''
-
-
 # 1)
 for i in range(3):
     print(chr(65 + i), chr(65 + i), chr(65 + i))
 print()
+
+
+print()
+print()
+
 
 # 2)
 for i in range(3):
@@ -26,6 +29,11 @@ for i in range(3):
         print(chr(65 + j), end=' ')
     print()
 print()
+
+
+print()
+print()
+
 
 # 3)
 count = 0
