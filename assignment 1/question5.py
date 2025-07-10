@@ -1,4 +1,4 @@
-# print(" ASSIGNMENT 5: W.A.P. TO MAKE A SIMPLE CALCULATOR")
+# QUESTION 5: W.A.P. TO MAKE A SIMPLE CALCULATOR
 
 def calculator(operator, number1, number2):
     if operator == "+":

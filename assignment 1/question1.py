@@ -1,4 +1,4 @@
-# print(" ASSIGNMENT 1: FIND MAXIMUM OF 2 NUMBERS")
+# QUESTION 1: FIND MAXIMUM OF 2 NUMBERS
 def max(a, b):
     if a > b:
         print(a, " is greater than", b)

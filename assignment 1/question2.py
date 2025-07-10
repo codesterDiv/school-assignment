@@ -1,4 +1,4 @@
-# print(" ASSIGNMENT 2: FIND MAXIMUM OF 3 NUMBERS")
+# QUESTION 2: FIND MAXIMUM OF 3 NUMBERS
 def max2(a, b, c):
     if a > b and a > c:
         print(a, " is greater than" , b , "and", c )
