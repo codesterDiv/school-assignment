@@ -13,12 +13,12 @@ m3 = int(input("please enter your marks of english out of 100 : "))
 
 avg = (m1+m2+m3)/3
 if avg <= 100 and avg>=80:
-    print("you got", f"{Style.BRIGHT}A{Style.RESET_ALL}", "grade")
+    print("you got A grade")
 elif avg < 80 and avg>=60:
-    print("you got", f"{Style.BRIGHT}B{Style.RESET_ALL}", "grade")
+    print("you got B grade")
 elif avg < 60 and avg>=40:
-    print("you got", f"{Style.BRIGHT}C{Style.RESET_ALL}", "grade")
+    print("you got C grade")
 elif avg < 40 and avg>=33:
-    print("you got", f"{Style.BRIGHT}D{Style.RESET_ALL}", "grade")
+    print("you got D grade")
 else:
-    print("you got", f"{Style.BRIGHT}f{Style.RESET_ALL}", "grade")
+    print("you got f grade")
